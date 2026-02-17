@@ -4,7 +4,7 @@ Aggregate fastplong QC reports from many samples into a single interactive HTML 
 
 ## Overview
 
-[Fastplong](https://github.com/Lab317/fastplong) produces per-sample JSON QC reports. **fastplong_multireport** scans a directory of these reports, aggregates metrics across samples, and generates a self-contained HTML report with interactive Plotly charts to help identify batch effects, quality trends, and outliers across a run.
+[Fastplong](https://github.com/OpenGene/fastplong) produces per-sample JSON QC reports. **fastplong_multireport** scans a directory of these reports, aggregates metrics across samples, and generates a self-contained HTML report with interactive Plotly charts to help identify batch effects, quality trends, and outliers across a run.
 
 ## Features
 
