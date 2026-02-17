@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""CLI launcher for fastplong_multireport. Run from package dir: ./fastplong_multireport <args>"""
+import sys
+from pathlib import Path
+
+# Ensure package is on path when run as ./fastplong_multireport
+_pkg = Path(__file__).resolve().parent
+if str(_pkg) not in sys.path:
+    sys.path.insert(0, str(_pkg.parent))
+
+from fastplong_multireport.fastplong_multireport import cli
+
+if __name__ == "__main__":
+    cli()
